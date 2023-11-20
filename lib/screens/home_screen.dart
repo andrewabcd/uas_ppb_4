@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:uas_ppb_4/components/menu_component.dart';
+import 'package:ChefCompanion/components/menu_component.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
