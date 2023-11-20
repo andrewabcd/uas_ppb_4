@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "152501860346",
+    "project_id": "chefcompanion",
+    "storage_bucket": "chefcompanion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152501860346:android:abe7b99efe3386e01dd643",
+        "android_client_info": {
+          "package_name": "com.chefcompanion.uas_ppb_4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7y-FKrI8oZBwJbX5utd2PGy1pnY1CaZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
