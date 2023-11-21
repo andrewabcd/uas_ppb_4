@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:Chef_Companion/screens/home_screen.dart';
+import 'package:chef_companion/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());

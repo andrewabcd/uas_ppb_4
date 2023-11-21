@@ -1,6 +1,7 @@
+import 'package:chef_companion/components/menu_type.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:Chef_Companion/components/menu_component.dart';
+import 'package:chef_companion/components/menu_component.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -67,6 +68,18 @@ class _HomePageState extends State<HomePage> {
           )),
         ),
         const SizedBox(height: 25),
+
+        // Tampilan Horizontal
+        Container(
+          height: 50,
+          child: ListView(
+            children: [
+              MenuType(menuType: "Drink"),
+            ],
+          ),
+        ),
+
+        // Tampilan List.
         Expanded(
             child: ListView(
           scrollDirection: Axis.horizontal,
