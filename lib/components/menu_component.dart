@@ -17,6 +17,7 @@ class MenuTile extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               ClipRRect(
+                borderRadius: BorderRadius.circular(12),
                 // TO DO: Insert image
                 child: Image.asset(''),
               ),
