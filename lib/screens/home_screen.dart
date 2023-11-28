@@ -96,8 +96,8 @@ class _HomePageState extends State<HomePage> {
               itemCount: menuType.length,
               itemBuilder: (context, index) {
                 return MenuType(
-                  menuType: MenuType[index][0],
-                  isSelected: MenuType[index][1],
+                  menuType: menuType[index][0],
+                  isSelected: menuType[index][1],
                   onTap: () {
                     menuTypeSelected(index);
                   },
