@@ -10,10 +10,10 @@ class MenuType extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TO DO : search the logic.
-    if () {
-      return Text('Drink');
+    if (menuType == 'Drink') {
+      return const Text('Drink');
     } else {
-      return Text('Eat');
+      return const Text('Eat');
     }
   }
 }

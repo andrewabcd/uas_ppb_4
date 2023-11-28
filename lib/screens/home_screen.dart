@@ -11,6 +11,9 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  final List menuType = [
+    'Drink', true,
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
