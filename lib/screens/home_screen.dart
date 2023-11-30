@@ -11,9 +11,24 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  // List of Type Menu
   final List menuType = [
-    'Drink', true,
+    [
+      'Drink',
+      true,
+    ],
+    [
+      'Eat',
+      false,
+    ],
   ];
+
+  void menuTypeSelected(int index) {
+    setState(() {
+      menuType[index][1] = true;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -70,16 +85,24 @@ class _HomePageState extends State<HomePage> {
             ),
           )),
         ),
+
         const SizedBox(height: 25),
 
         // Tampilan Horizontal
         Container(
           height: 50,
-          child: ListView(
-            children: [
-              MenuType(menuType: "Drink"),
-            ],
-          ),
+          child: ListView.builder(
+              scrollDirection: Axis.horizontal,
+              itemCount: menuType.length,
+              itemBuilder: (context, index) {
+                return MenuType(
+                  menuType: MenuType[index][0],
+                  isSelected: MenuType[index][1],
+                  onTap: () {
+                    menuTypeSelected(index);
+                  },
+                );
+              }),
         ),
 
         // Tampilan List.
