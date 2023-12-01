@@ -1,5 +1,6 @@
+import 'package:chef_companion/pages/menu_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:chef_companion/screens/home_screen.dart';
+import 'pages/intro_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,8 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
-      theme: ThemeData(brightness: Brightness.dark, primarySwatch: Colors.red),
+      home: const IntroScreen(),
+      routes: {
+        '/introscreen': (context) => const IntroScreen(),
+        '/menuscreen': (context) => const MenuScreen(),
+      },
     );
   }
 }

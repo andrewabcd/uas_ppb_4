@@ -1,3 +1,4 @@
+import 'package:chef_companion/components/button.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -47,6 +48,13 @@ class IntroScreen extends StatelessWidget {
             ),
             const SizedBox(height: 25),
             // get started button
+            MyButton(
+              text: "Get Started",
+              onTap: () {
+                //go to menu page
+                Navigator.pushNamed(context, '/menuscreen');
+              },
+            )
           ],
         ),
       ),
