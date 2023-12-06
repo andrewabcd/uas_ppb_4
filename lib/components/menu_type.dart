@@ -28,11 +28,11 @@ class MenuType extends StatelessWidget {
       ),
     );
 
-    // TO DO : search the logic.
+    /* // TO DO : search the logic.
     if (menuType == 'Drink') {
       return const Text('Drink');
     } else {
       return const Text('Eat');
-    }
+    }*/
   }
 }

@@ -1,11 +1,8 @@
-import 'package:flutter/material.dart';
-// pada line 139 masukkan keyword OnTap di Expanded
-
 import 'package:chef_companion/components/button.dart';
 import 'package:chef_companion/components/food_tile.dart';
 import 'package:chef_companion/models/pricefood.dart';
 import 'package:chef_companion/themes/color.dart';
-
+import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class MenuScreen extends StatefulWidget {
@@ -101,6 +98,7 @@ class _MenuScreenState extends State<MenuScreen> {
                     // Button Redeem
                     MyButton(
                       text: "Redeem",
+                      //onTap: () {},
                     ),
                   ],
                 ),

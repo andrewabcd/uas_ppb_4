@@ -50,10 +50,10 @@ class IntroScreen extends StatelessWidget {
             // get started button
             MyButton(
               text: "Get Started",
-              onTap: () {
-                //go to menu page
-                Navigator.pushNamed(context, '/menuscreen');
-              },
+              //onTap: () {
+              //go to menu page
+              //Navigator.pushNamed(context, '/menuscreen');
+              //},
             )
           ],
         ),
