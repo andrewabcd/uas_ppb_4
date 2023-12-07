@@ -1,6 +1,6 @@
+import 'package:chef_companion/models/product.dart';
+import 'package:chef_companion/models/shop.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chefcompanion/models/product.dart';
-import 'package:flutter_chefcompanion/models/shop.dart';
 import 'package:provider/provider.dart';
 
 class CCProductTile extends StatelessWidget {
@@ -11,17 +11,17 @@ class CCProductTile extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        content: Text("Pesan Makanan/Minuman ini?"),
+        content: const Text("Pesan Makanan/Minuman ini?"),
         actions: [
           MaterialButton(onPressed: () => Navigator.pop(context),
-          child: Text("Cancel"),
+          child: const Text("Cancel"),
           ),
 
           MaterialButton(onPressed: () {
             Navigator.pop(context);
             context.read<Shop>().addToCart(product);
           },
-          child: Text("Yes"),
+          child: const Text("Yes"),
           ),
         ],
       ));

@@ -1,6 +1,6 @@
-import 'package:chef_companion/pages/menu_screen.dart';
+import 'package:chef_companion/screens/intro_screen.dart';
+import 'package:chef_companion/screens/menu_screen.dart';
 import 'package:flutter/material.dart';
-import 'pages/intro_screen.dart';
 
 void main() {
   runApp(const MyApp());

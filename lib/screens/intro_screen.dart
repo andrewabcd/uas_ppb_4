@@ -1,5 +1,5 @@
+import 'package:chef_companion/components/button.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chefcompanion/components/button.dart';
 
 class IntroScreen extends StatelessWidget {
   const IntroScreen({super.key});

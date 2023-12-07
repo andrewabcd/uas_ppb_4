@@ -1,5 +1,5 @@
+import 'package:chef_companion/components/list_tile.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chefcompanion/components/list_tile.dart';
 
 class CCDrawer extends StatelessWidget {
   const CCDrawer({super.key});

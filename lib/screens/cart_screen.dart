@@ -1,8 +1,8 @@
+import 'package:chef_companion/components/button.dart';
+import 'package:chef_companion/components/drawer.dart';
+import 'package:chef_companion/models/product.dart';
+import 'package:chef_companion/models/shop.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chefcompanion/components/button.dart';
-import 'package:flutter_chefcompanion/components/drawer.dart';
-import 'package:flutter_chefcompanion/models/product.dart';
-import 'package:flutter_chefcompanion/models/shop.dart';
 import 'package:provider/provider.dart';
 
 class CartScreen extends StatelessWidget {

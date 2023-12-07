@@ -1,7 +1,7 @@
+import 'package:chef_companion/components/drawer.dart';
+import 'package:chef_companion/components/product_tile.dart';
+import 'package:chef_companion/models/shop.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chefcompanion/components/drawer.dart';
-import 'package:flutter_chefcompanion/components/product_tile.dart';
-import 'package:flutter_chefcompanion/models/shop.dart';
 import 'package:provider/provider.dart';
 
 class MenuScreen extends StatelessWidget {

@@ -1,5 +1,5 @@
+import 'package:chef_companion/models/product.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chefcompanion/models/product.dart';
 
 class Shop extends ChangeNotifier {
   final List<Product> _shop = [
