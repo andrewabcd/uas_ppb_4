@@ -36,6 +36,14 @@ class CCDrawer extends StatelessWidget {
                   Navigator.pushNamed(context, '/cart_screen');
                 },
               ),
+              CCListTile(
+                text: "Feedbacks",
+                icon: Icons.note,
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/rating_screen');
+                },
+              ),
             ],
           ),
           Padding(
