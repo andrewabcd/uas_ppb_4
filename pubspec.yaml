@@ -61,8 +61,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-  
-  # Images 
+
+  # Images
     # To add assets to your application, add an assets section, like this:
   assets:
   - assets/image/Icons/hotcoffee.png/
@@ -80,7 +80,7 @@ flutter:
   - assets/image/Menu/WatermelonJuice.jpg/
   - assets/image/Menu/DalgonaCoffee.jpg/
   #   - images/a_dot_ham.jpeg
-  
+
 
 
 
