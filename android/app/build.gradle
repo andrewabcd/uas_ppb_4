@@ -23,7 +23,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace ""
+    namespace "Chef Compaiion"
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 

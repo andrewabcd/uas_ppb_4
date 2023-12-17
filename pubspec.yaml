@@ -65,20 +65,20 @@ flutter:
   # Images
     # To add assets to your application, add an assets section, like this:
   assets:
-  - assets/image/Icons/hotcoffee.png/
-  - assets/image/Icons/GoogleLogo.png/
-  - assets/image/Menu/Cappucino.jpg/
-  - assets/image/Menu/Cocktail.jpg/
-  - assets/image/Menu/latte.jpg/
-  - assets/image/Menu/MangoJuice.jpg/
-  - assets/image/Menu/Tea.jpg/
-  - assets/image/Menu/Kebab.jpg/
-  - assets/image/Menu/nasgor.jpg/
-  - assets/image/Menu/OrangeJuice.jpg/
-  - assets/image/Menu/ManggisJuice.jpg/
-  - assets/image/Menu/Steak.jpg/
-  - assets/image/Menu/WatermelonJuice.jpg/
-  - assets/image/Menu/DalgonaCoffee.jpg/
+  - assets/image/Icons/hotcoffee.png
+  - assets/image/Icons/GoogleLogo.png
+  - assets/image/Menu/Cappucino.jpg
+  - assets/image/Menu/Cocktail.jpg
+  - assets/image/Menu/latte.jpg
+  - assets/image/Menu/MangoJuice.jpg
+  - assets/image/Menu/Tea.jpg
+  - assets/image/Menu/Kebab.jpg
+  - assets/image/Menu/nasgor.jpg
+  - assets/image/Menu/OrangeJuice.jpg
+  - assets/image/Menu/ManggisJuice.jpg
+  - assets/image/Menu/Steak.jpg
+  - assets/image/Menu/WatermelonJuice.jpg
+  - assets/image/Menu/DalgonaCoffee.jpg
   #   - images/a_dot_ham.jpeg
 
 
@@ -114,3 +114,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+module:
+    androidPackage: com.chefcompanion.uas_ppb_4
