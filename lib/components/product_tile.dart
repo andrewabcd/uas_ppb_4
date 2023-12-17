@@ -77,7 +77,7 @@ class CCProductTile extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text('\$' + product.price.toStringAsFixed(2)),
+                Text('\$${product.price.toStringAsFixed(2)}'),
 
                 Container(
                   decoration: BoxDecoration(

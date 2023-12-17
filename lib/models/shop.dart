@@ -89,7 +89,7 @@ class Shop extends ChangeNotifier {
     ),
   ];
 
-  List<Product> _cart = [];
+  final List<Product> _cart = [];
 
   List<Product> get shop => _shop;
 
