@@ -1,0 +1,13 @@
+name : Chef_Companion_App
+
+
+on:
+    push :
+        branches : 
+            - main
+            - Development
+
+jobs :
+    Chef_Companion_App:
+        name : Chef_Companion_App
+        runs-on : Windows 11
